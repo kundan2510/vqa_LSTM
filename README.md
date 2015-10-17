@@ -1,5 +1,7 @@
-#Utility functions for working on VQA dataset(http://arxiv.org/pdf/1505.00468v3.pdf, http://www.visualqa.org/) and word vector embeddings
+#Utility functions for working on VQA dataset and word vector embeddings
 ----------
+
+VQA dataset: (http://arxiv.org/pdf/1505.00468v3.pdf, http://www.visualqa.org/)
 
 w2vutils.lua and bintot7.lua have been taken from https://github.com/rotmanmi/word2vec. Some more functionalities have been added.
 
