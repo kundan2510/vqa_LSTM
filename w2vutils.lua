@@ -51,7 +51,7 @@ end
 
 w2vutils.vector = function(self,word)
 	local id = self.w2vvocab[word]
-	assert(id,word .. " not found in dictionary\n")
+	-- assert(id,word .. " not found in dictionary\n")
 	return self.M[id]
 end
 

@@ -47,8 +47,8 @@ function vqa_utils.create_index_for_q_and_a()
 	for i,v in ipairs(vqa_utils.answers) do
 		vqa_utils.q2ans[v['question_id']] = i
 	end
-	for i,v in ipairs(vqa_utils.questions) do
-		vqa_utils.id2ques[v['question_id']] = i
+	for i,v in ipairs(vqa_utils.questions_MCQ) do
+		vqa_utils.id2qsn[v['question_id']] = i
 	end
 end
 
